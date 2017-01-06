@@ -1,0 +1,31 @@
+.gallery-grid{
+   padding:40px 0 20px;
+  
+	.hover-effect{
+	 margin:0 0 30px;
+	  position:relative;
+	  .hover-details{
+	   @include linearTransition(all,300ms);
+	   @include Opacity(0);
+	   position:absolute;
+	   padding:20px;
+	  height:100%;
+	  width:100%;
+	  top:0;
+	  background-color:rgba(0,0,0,0.6);
+	  h3{
+	  margin:0 0 10px;
+	  }
+	  h3,h5{
+	  color:#fff;
+	  }
+
+	  }
+	  &:hover .hover-details{
+	   @include Opacity(1);
+	   cursor:pointer;
+	 
+	  
+	   }
+	}
+}

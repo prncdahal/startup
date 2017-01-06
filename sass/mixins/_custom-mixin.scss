@@ -1,0 +1,20 @@
+@mixin Opacity($value){
+  $IEValue: $value*100;
+  opacity: $value;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity="+$IEValue+")";
+  filter: alpha(opacity=$IEValue);
+}
+
+//Transition 
+
+
+
+
+
+@mixin linearTransition($property,$value){
+-webkit-transition: $property $value linear;
+-moz-transition: $property $value linear;
+-ms-transition: $property $value linear;
+-o-transition: $property $value linear;
+transition: $property $value linear;
+}

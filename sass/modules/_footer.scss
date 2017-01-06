@@ -1,0 +1,18 @@
+.footer{
+	padding:30px;
+	background-color:#333;
+	color:#fff;
+}
+
+.social-icons{
+  span{
+  padding:0 10px;
+  &:last-child{
+   padding:0 0 0 10px;
+  }
+  }
+	a{
+	color:#fff;
+	font-size:14px;
+	}
+}

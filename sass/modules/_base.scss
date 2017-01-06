@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Futura Std';
+    src: url('../fonts/FuturaStd-Medium.eot');
+    src: url('../fonts/FuturaStd-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FuturaStd-Medium.woff') format('woff'),
+        url('../fonts/FuturaStd-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura Std';
+    src: url('../fonts/FuturaStd-Book.eot');
+    src: url('../fonts/FuturaStd-Book.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FuturaStd-Book.woff') format('woff'),
+        url('../fonts/FuturaStd-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura Std';
+    src: url('../fonts/FuturaStd-Light.eot');
+    src: url('../fonts/FuturaStd-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FuturaStd-Light.woff') format('woff'),
+        url('../fonts/FuturaStd-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+body{
+	 font-family: 'Futura Std';
+	 font-weight:300;
+	 letter-spacing:2px;
+}
+ img{
+ max-width:100%;
+ }
+
+h1,h2,h3{
+	margin:0 0 20px;
+	font-weight:normal;
+
+}
